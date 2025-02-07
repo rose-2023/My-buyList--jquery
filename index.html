@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Jquery / json 動態產生購物車清單</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="buylist">
+  <h1>My buyList 購物清單</h1>
+  <div class="buy_item control_panel">
+    <label>產品名</label>
+    <input id="input_name" placeholder="名稱"/>
+    <label>價錢</label>
+    <input id="input_price" placeholder="價錢"/><span class="addbtn">+新增</span>
+  </div>
+  <div id="item_list"></div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/ejs@3.1.8/ejs.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
